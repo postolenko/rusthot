@@ -1,1 +1,1 @@
-# http://postolenko.github.io/rushot/index.html
+# http://postolenko.github.io/rusthot/index.html
