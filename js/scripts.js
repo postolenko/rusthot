@@ -21,7 +21,7 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
 
-  getSidebarHeight();
+  // getSidebarHeight();
 
   $(".scrollbar").mCustomScrollbar({
     // callbacks:{
