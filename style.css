@@ -1995,6 +1995,10 @@ input {
 }
 
 .user_list_thumb {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
     width: calc(25% - 14px);
     /*min-width: 370px;*/
     margin: 7px;
@@ -2191,6 +2195,7 @@ input {
 
 .user_item_2 > div:nth-child(2) {
     width: 95px;
+    text-align: right;
 }
 
 .user_info {
@@ -2232,6 +2237,8 @@ input {
 }
 
 .count_rate {
+    display: inline-block;
+    vertical-align: top;
     margin: 12px 0 0 0;
     font-weight: 500;
     font-size: 16px;
@@ -2275,12 +2282,13 @@ input {
     display: flex;
     display: -webkit-flex;
     align-items: center;
+    -webkit-align-items: center;
     height: 100%;
     text-align: center;
-    margin-top: 50%;
-    -webkit-transform: translate(0, -50%);
+    /*margin-top: 50%;*/
+/*    -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    transform: translate(0, -50%);*/
 }
 
 .rate_ziro > div {
