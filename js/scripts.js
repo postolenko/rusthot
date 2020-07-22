@@ -1,15 +1,12 @@
 function getSidebarHeight() {
-  // $("#chatUsers").css({
-  //   "height" : "auto",
-  //   "max-height" : "auto",
-  //   "padding-bottom" : $("footer").height() + "px"
-  // });
-  // if($(".bottomCoord").offset().top >= $(window).height() ) {
-  //   $("#chatUsers").css({
-  //     "max-height" : $("#sidebarHeight").height() + "px"
-  //   });
-  // }
-
+  $(".sidebar").css({
+    "padding-bottom" : $(".footer_section").height() + "px"
+  });
+  $("#chatUsers").css({
+    "top" : $(".sidebar_header").outerHeight() + "px",
+    "max-height" : $(".sidebar").height() - $(".sidebar_header").height() + "px"
+  });
+  console.log($(".footer_section").height());
 }
 
 var w = window,
@@ -21,16 +18,8 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
 
-  // getSidebarHeight();
-
-  $(".scrollbar").mCustomScrollbar({
-    // callbacks:{
-    //     onInit: function(){
-    //       // getSidebarHeight();
-    //       console.log("Scrollbars initialized");
-    //     }
-    // }
-  });
+  getSidebarHeight();
+  $(".scrollbar").mCustomScrollbar();
 
 });
 
@@ -40,7 +29,7 @@ $(window).resize(function() {
     "padding-top" : $(".header_site").height() + "px"
   });
 
-  // getSidebarHeight();
+  getSidebarHeight();
 
 });
 
