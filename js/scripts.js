@@ -72,7 +72,22 @@ $(document).ready(function() {
               }
             ]
       });
-  }    
+  }
+
+  if( $(".users_slider").length > 0 ) {
+    $(".users_slider").not(".slick-initialized").slick({
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 1200,
+        // slidesToShow: 1,
+        // slidesToScroll: 5,
+        variableWidth: true,
+        // centerMode: true
+    });
+  }
+
 
   $(".lang_current").click(function(e) {
     e.preventDefault();

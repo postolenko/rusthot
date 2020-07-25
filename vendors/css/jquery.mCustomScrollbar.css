@@ -1271,6 +1271,11 @@ yx-axis
     top: 0;
     left: 0;
     bottom: 0;
-    right: -10px;
+    right: 0;
     height: auto;
+}
+
+
+.mCSB_inside > .mCSB_container {
+    margin-right: 0;
 }

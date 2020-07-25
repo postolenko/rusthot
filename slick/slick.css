@@ -117,3 +117,8 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.slick-slide {
+    outline: 1px solid transparent !important;
+    outline: none !important;
+}
