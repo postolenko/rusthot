@@ -4676,7 +4676,7 @@ input {
     z-index: 2;
 }
 
-.gamer_params > div:nth-child(1):before {
+/*.gamer_params > div:nth-child(1):before {
     display: block;
     content: "";
     background: radial-gradient(50% 61.36% at 50% 100%, #FF2C2C 0%, rgba(28, 29, 45, 0) 100%);
@@ -4687,7 +4687,7 @@ input {
     left: 0;
     height: 100%;
     width: 50px;
-}
+}*/
 
 .gamer_params > div:nth-child(2) {
     width: 150px;
@@ -4695,7 +4695,7 @@ input {
     z-index: 2;
 }
 
-.gamer_params > div:nth-child(2):after {
+/*.gamer_params > div:nth-child(2):after {
     display: block;
     content: "";
     background: radial-gradient(50% 61.36% at 50% 100%, #FF2C2C 0%, rgba(28, 29, 45, 0) 100%);
@@ -4706,7 +4706,7 @@ input {
     right: 0;
     height: 100%;
     width: 50px;
-}
+}*/
 
 .items_2 {
     display: flex;
@@ -4935,12 +4935,502 @@ input {
     color: #FFFFFF;
 }
 
+.total_winner {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto -38px auto;
+    position: relative;
+    z-index: 2;
+}
 
+.total_winner_header {
+    text-align: center;
+}
 
+.total_winner_header h3 {
+    padding: 2px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    background: linear-gradient(#FFFFFF, #929EB1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.total_winner_header h2 {
+    padding: 2px 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    background: linear-gradient(#FFFFFF, #929EB1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.winner_three_cols {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.winner_three_cols > div {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 20px;
+}
+
+.winner_three_cols > div:nth-child(1) {
+    text-align: right;
+    width: calc(50% - 63px);
+}
+
+.winner_three_cols > div:nth-child(2) {
+    width: 126px;
+}
+
+.winner_three_cols > div:nth-child(3) {
+    width: calc(50% - 63px);
+}
+
+.total_winner_item {
+    margin: 15px 0;
+}
+
+.total_winner_item h3 {
+    padding-bottom: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    background: linear-gradient(#FFFFFF, #929EB1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.total_winner_item p {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    background: linear-gradient(#FFFFFF, #929EB1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.total_winner_avatar {
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, .1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.total_winner_avatar .img_box {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 7px;
+    left: 8px;
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.total_winner_avatar .img_box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 
 /*-- /Section 1 - Raffle Page --*/
 
+/*-- Section 1 - Jackpot Page --*/
 
+
+.jackpot_bg {
+    position: relative;
+
+}
+
+.shadow {
+/*-webkit-box-shadow: inset 0px 0px 163px 182px rgba(23,25,37,0.9);
+-moz-box-shadow: inset 0px 0px 163px 182px rgba(23,25,37,0.9);
+box-shadow: inset 0px 0px 163px 182px rgba(23,25,37,0.9);*/
+-webkit-box-shadow: inset 0px 0px 91px 76px rgba(23,25,37,1);
+-moz-box-shadow: inset 0px 0px 91px 76px rgba(23,25,37,1);
+box-shadow: inset 0px 0px 91px 76px rgba(23,25,37,1);
+}
+
+.jackpot_bg:before {
+    width: 100%;
+    /*height: 430px;*/
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-image: url(img/jackpot_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .2;
+}
+
+.jackpot_bg:after {
+    width: 100%;
+    /*height: 430px;*/
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-image: url(img/jackpot_bg_bottom.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .8;
+}
+
+.jackpot_templ {
+    position: relative;
+}
+
+.fire {
+    width: 272px;
+    height: 390px;
+    background-image: url(img/fire.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.jackpot_templ .fire {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+/*.jackpot_bg:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: radial-gradient(50.03% 65.68% at 50.03% 34.32%, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
+    z-index: 2;
+}*/
+
+/*.jackpot_bg .z_wrapp {
+    position: relative;
+    z-index: 3;
+}*/
+
+.jackpot_templ {
+
+}
+
+.top_row {
+    display: flex;
+    display: -webkit-flex;
+    margin: 52px 0 45px 0;
+}
+
+.top_row > div {
+    width: 50%;
+    text-align: center;
+}
+
+.top_row > div {
+
+}
+
+.top_row .total_winner_item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.top_row > div:nth-child(1) .total_winner_item {
+    text-align: left;
+}
+
+.top_row > div:nth-child(2) .total_winner_item {
+    text-align: right;
+}
+
+.two_cols_4 {
+    display: flex;
+    display: -webkit-flex;
+    margin: 20px 0 0 0;
+}
+
+.two_cols_4 > div:nth-child(1) {
+    width: 50%;
+    padding: 10px 12px 10px 0;
+}
+
+.two_cols_4 > div:nth-child(2) {
+    width: 50%;
+    padding: 10px 0 10px 12px;
+}
+
+.gamer_params_wrapp_2 {
+    max-width: 100%;
+    margin: 0;
+}
+
+.gamer_params_wrapp_2 .draw_item {
+    margin: 1px 12px;
+}
+
+.gamer_params_2 {
+    padding-left: 25px;
+}
+
+.gamer_params_2 > div:nth-child(1) {
+    order: 2;
+}
+
+.gamer_params_2 > div:nth-child(2) {
+    order: 1;
+}
+
+.gamer_params_2 {
+    background: -moz-linear-gradient(left, rgba(240,251,74,0.41) 0%, rgba(240,251,74,0) 40%, rgba(240,251,74,0) 60%, rgba(240,251,74,0.4) 100%);
+    background: -webkit-linear-gradient(left, rgba(240,251,74,0.41) 0%,rgba(240,251,74,0) 40%,rgba(240,251,74,0) 60%,rgba(240,251,74,0.4) 100%);
+    background: linear-gradient(to right, rgba(240,251,74,0.41) 0%,rgba(240,251,74,0) 40%,rgba(240,251,74,0) 60%,rgba(240,251,74,0.4) 100%);
+}
+
+.gamer_params_wrapp_2.yellow:before {
+    display: block;
+    content: "";
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, rgba(240,251,74,0) 0%, rgba(240,251,74,0) 1%, rgba(240,251,74,0.7) 40%, rgba(240,251,74,0.9) 60%, rgba(240,251,74,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(240,251,74,0) 0%,rgba(240,251,74,0) 1%,rgba(240,251,74,0.7) 40%,rgba(240,251,74, 0.9) 60%,rgba(240,251,74,0) 100%);
+    background: linear-gradient(to bottom, rgba(240,251,74,0) 0%,rgba(240,251,74,0) 1%,rgba(240,251,74,0.7) 40%,rgba(240,251,74, 0.9) 60%,rgba(240,251,74,0) 100%);
+}
+
+.gamer_params_wrapp_2.yellow:after {
+    display: block;
+    content: "";
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, rgba(240,251,74,0) 0%, rgba(240,251,74,0) 1%, rgba(240,251,74,0.7) 40%, rgba(240,251,74,0.9) 60%, rgba(240,251,74,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(240,251,74,0) 0%,rgba(240,251,74,0) 1%,rgba(240,251,74,0.7) 40%,rgba(240,251,74, 0.9) 60%,rgba(240,251,74,0) 100%);
+    background: linear-gradient(to bottom, rgba(240,251,74,0) 0%,rgba(240,251,74,0) 1%,rgba(240,251,74,0.7) 40%,rgba(240,251,74, 0.9) 60%,rgba(240,251,74,0) 100%);
+}
+
+.gamer_params_2:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    background-image: url(img/gamer_params_shape_yellow.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.user_wrapp_2_2 {
+
+}
+
+.user_wrapp_2_2 > div:nth-child(1) {
+    order: 2;
+    text-align: left;
+}
+
+.user_wrapp_2_2 > div:nth-child(2) {
+    order: 1;
+    text-align: left;
+}
+
+.user_avatar.yellow {
+    border: 2px solid #F0FB4A;
+    -webkit-box-shadow: 0 0 15px #F0FB4A, 0 0 25px #F0FB4A;
+    -moz-box-shadow: 0 0 15px #F0FB4A, 0 0 25px #F0FB4A;
+    box-shadow: 0 0 15px #F0FB4A, 0 0 25px #F0FB4A;
+}
+
+/*.gamer_params_2 .items_2:after {
+    content: "";
+}
+
+.gamer_params_2 .items_2 .draw_item:last-child {
+    float: right;
+}*/
+
+.thumbnails_2 {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin: 7px -8px;
+}
+
+.thumbnails_2 .thumb_2 {
+    margin: 8px;
+    width: calc(20% - 16px);
+}
+
+.thumb_2 {
+    padding-top: 11px;
+    background: -webkit-linear-gradient(180deg, #222333 0%, #1F2030 100%);
+    background: -moz-linear-gradient(180deg, #222333 0%, #1F2030 100%);
+    background: linear-gradient(180deg, #222333 0%, #1F2030 100%);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.text_wrapp_3 {
+    margin: 10px 0 8px 0;
+    text-align: left;
+}
+
+.text_wrapp_3 p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: .02em;
+    color: #58596C;
+}
+
+.text_wrapp_3 p span {
+    color: #fff;
+}
+
+.thumb_2 .inner {
+    padding: 24px 24px 13px 24px;
+}
+
+.history_goods_2 {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin: 0 -2px;
+}
+
+.history_goods_2 .history_good {
+    width: calc(33.33% - 4px);
+    margin: 2px;
+}
+
+.dark_pill {
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    position: relative;
+    margin: 10px 0;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #11121B;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease; 
+}
+
+.dark_pill:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(180deg, #11121B 0%, #0B0B11 100%);
+    background: -moz-linear-gradient(180deg, #11121B 0%, #0B0B11 100%);
+    background: linear-gradient(180deg, #11121B 0%, #0B0B11 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.dark_pill span {
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    color: #6C6D81;
+    position: relative;
+    z-index: 2;
+}
+
+.dark_pill:link,
+.dark_pill:visited {
+    box-shadow: none;
+}
+
+.dark_pill:active,
+.dark_pill.active {
+    -webkit-box-shadow: 0 0 25px rgba(17, 18, 27, .5);
+    -moz-box-shadow: 0 0 25px rgba(17, 18, 27, .5);
+    box-shadow: 0 0 25px rgba(17, 18, 27, .5);
+}
+
+.dark_pill:hover {
+    -webkit-box-shadow: 0 0 25px rgba(17, 18, 27, .5);
+    -moz-box-shadow: 0 0 25px rgba(17, 18, 27, .5);
+    box-shadow: 0 0 25px rgba(17, 18, 27, .5);
+}
+
+.thumb_2 .dark_pill {
+    width: 100%;
+}
+
+/*-- /Section 1 - Jackpot Page --*/
 
 
 

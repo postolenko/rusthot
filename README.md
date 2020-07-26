@@ -5,3 +5,6 @@
 # http://postolenko.github.io/rusthot/support_empty.html
 # http://postolenko.github.io/rusthot/support_new_ticket.html
 # http://postolenko.github.io/rusthot/top.html
+# http://postolenko.github.io/rusthot/raffle.html
+# http://postolenko.github.io/rusthot/raffle_2.html
+# http://postolenko.github.io/rusthot/jackpot.html
