@@ -1734,7 +1734,8 @@ label {
 
 .circle_bg {
     position: absolute;
-    bottom: -96px;
+    /*bottom: -96px;*/
+    bottom: -65px;
     left: 50%;
     margin-left: -476px;
 }
