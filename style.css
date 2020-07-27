@@ -1570,7 +1570,7 @@ label {
     margin-bottom: 24px;
     padding: 15px 20px 16px 5px;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 #sidebarHeight {
