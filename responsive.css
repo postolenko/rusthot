@@ -19,6 +19,35 @@
 }
 
 
+@media only screen and (max-width: 1300px) {
+
+/*-- Header --*/
+
+.header_site .left {
+    width: 150px;
+}
+
+.header_site .right {
+    width: calc(100% - 150px);
+}
+
+.main_nav li a {
+    padding: 0 15px;
+}
+
+.main_nav li a span {
+    font-size: 15px;
+}
+
+.lang_wrapp {
+    width: 90px;
+ }
+
+/*-- /Header --*/
+
+}
+
+
 @media only screen and (max-width: 900px) {
 
 
