@@ -8,3 +8,5 @@
 # http://postolenko.github.io/rusthot/raffle.html
 # http://postolenko.github.io/rusthot/raffle_2.html
 # http://postolenko.github.io/rusthot/jackpot.html
+# http://postolenko.github.io/rusthot/jackpot_2.html
+# http://postolenko.github.io/rusthot/jackpot_3.html
