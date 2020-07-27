@@ -120,6 +120,7 @@ body {
     -ms-flex-direction: column;
     min-height: 100%;
     /*min-height: 100vh;*/
+    overflow: hidden;
 }
 
 header {
@@ -1696,6 +1697,19 @@ label {
     align-items: flex-end;
     -webkit-align-items: flex-end;
     order: 2;
+}
+
+.rulet_sect {
+    width: 100%;
+    position: relative;
+}
+
+.rulet_sect .history_list {
+    width: 100%;
+    position: absolute;
+    bottom: 21px;
+    left: 0;
+    text-align: center;
 }
 
 .rulet_wrapp {

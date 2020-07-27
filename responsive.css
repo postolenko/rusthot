@@ -51,11 +51,19 @@
 	.two_cols > .col_1 {
 	    width: 100%;
 	    max-width: 100%;
-	    margin: 20px auto;
+	    margin: 0 auto;
 	}
 
 	.two_cols > .col_2 {
 		width: 100%;
+	}
+
+	.rulet_wrapp {
+	    top: 0;
+	}
+
+	.rulet_sect .history_list {
+	    bottom: 10px;
 	}
 
 	.filter_three_cols {
@@ -627,7 +635,7 @@
 /*-- Section 1 - Main Page --*/
 
 .users_lists_thumbnails {
-    margin: 0;
+    margin: 17px -15px;
 }
 
 .user_list_thumb {
@@ -695,6 +703,10 @@
 
 /*-- Section 1 - Main Page --*/
 
+.draw {
+    margin-bottom: 0px;
+}
+
 .circle_wrapp .counter_wrapp {
     top: 209px;
 }
@@ -705,10 +717,10 @@
 
 p.countdown {
 	font-size: 44px;
-	line-height: 60px;
+	line-height: 48px;
 }
 
-.circle_wrapp .history_list {
+.rulet_sect .history_list {
 	-webkit-transform: scale(.8);
 	-moz-transform: scale(.8);
 	transform: scale(.8);
@@ -722,12 +734,18 @@ p.countdown {
 
 	/*-- Section 1 - Main Page --*/
 
+	.circle_wrapp {
+	    height: 304px;
+	}
+
 	.circle_wrapp:before {
 	    height: 61px;
-	    top: 136px;
+	    top: 95px;
 	}
 
 	.rotate {
+		top: 23px;
+		height: 304px;
 	    -webkit-transform: scale(.5);
 	    -moz-transform: scale(.5);
 	    transform: scale(.5);
@@ -738,6 +756,24 @@ p.countdown {
 	    -webkit-transform: scale(.5);
 	    -moz-transform: scale(.5);
 	    transform: scale(.5);
+	}
+
+	.rulet_wrapp {
+	    top: 15px;
+	}
+
+	.counter_wrapp_2 p.countdown {
+	    margin-top: 0;
+	}
+
+	.circle_wrapp .counter_wrapp {
+	    top: 168px;
+	}
+
+	.rulet_sect .history_list {
+		-webkit-transform: scale(.6);
+		-moz-transform: scale(.6);
+		transform: scale(.6);
 	}
 
 	/*-- /Section 1 - Main Page --*/
@@ -763,6 +799,11 @@ p.countdown {
 	    top: -29px;
 	}
 
+	.two_cols > .col_2 {
+	    width: calc(100% + 30px);
+	    margin: 0 -15px;
+	}
+
 	.filter_box {
 		margin: 0 -20px;
 	    padding: 22px 15px 1px 15px;
@@ -779,6 +820,16 @@ p.countdown {
 	.radio_txt span {
 	    padding-left: 3px;
 	}
+
+	.circle_wrapp .counter_wrapp {
+	    top: 173px;
+	}
+
+	p.c_t {
+		font-size: 13px;
+		line-height: 19px;
+	}
+
 
 	/*-- /Section 1 - Main Page --*/
 
