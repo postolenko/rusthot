@@ -31,8 +31,8 @@
     width: calc(100% - 150px);
 }
 
-.main_nav li a {
-    padding: 0 15px;
+.main_nav_wrapp {
+    width: calc(100% - 280px);
 }
 
 .main_nav li a span {
