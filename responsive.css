@@ -1,6 +1,20 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1600px) {
 
+/*-- Header --*/
 
+.header_site .left {
+    width: 200px;
+}
+
+.header_site .right {
+    width: calc(100% - 200px);
+}
+
+.main_nav li a {
+    padding: 0 20px;
+}
+
+/*-- /Header --*/
 
 }
 
