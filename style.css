@@ -305,7 +305,6 @@ img {
     outline: none;
     border: 1px solid transparent;
     border: none;
-    content: '';
 }
 
 button:hover,
