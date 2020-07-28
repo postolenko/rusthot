@@ -533,8 +533,8 @@ label {
 
 .star_big {
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     background-image: url(img/star.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -543,9 +543,89 @@ label {
 
 .star_red_big {
     display: block;
+    width: 22px;
+    height: 22px;
+    background-image: url(img/star_red.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.doble_big {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-image: url(img/doble.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.doble_red_big {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-image: url(img/doble_red.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.clock_big {
+    display: block;
     width: 20px;
     height: 20px;
-    background-image: url(img/star_red.svg);
+    background-image: url(img/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.clock_red_big {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/clock_red.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.settings_big {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/settings.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.settings_red_big {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/settings_red.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.cup_big {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/cup.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.cup_red_big {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/cup_red.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
