@@ -898,6 +898,59 @@ p.countdown {
 
 /*-- /Section 1 - Main Page --*/
 
+/*-- Section 1 - Jackpot Page --*/
+
+.top_row {
+    margin: 14px 0 57px 0;
+}
+
+.top_row_2 > div:nth-child(1) {
+    width: 50%;
+}
+
+.top_row_2 > div:nth-child(2) {
+    width: 0;
+}
+
+.top_row_2 > div:nth-child(3) {
+    width: 50%;
+}
+
+.jackpot_templ .counter_templ {
+    top: 185px;
+ }
+
+.jackpot_templ p.countdown {
+	padding-bottom: 6px;
+    font-size: 54px;
+    line-height: 60px;
+}
+
+.total_winner_item p {
+    font-size: 30px;
+}
+
+.total_winner_2 {
+    margin: 18px 0;
+}
+
+.total_winner_header h2 {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.total_winner_item h3 {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.total_winner_item p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/*-- /Section 1 - Jackpot Page --*/
+
 }
 
 @media only screen and (max-width: 540px) {
@@ -1046,6 +1099,38 @@ p.countdown {
 	    width: 55px;
 	    text-align: left;
 	    order: 1;
+	}
+
+	.total_winner_header h3 {
+	    font-size: 14px;
+	    line-height: 19px;
+	}
+
+	.total_winner_header h2 {
+	    font-size: 15px;
+	    line-height: 27px;
+	}
+
+	.winner_three_cols > div {
+	    padding: 5px 5px;
+	}
+
+	.winner_three_cols > div:nth-child(1) {
+	    width: calc(50% - 50px);
+	}
+
+	.winner_three_cols > div:nth-child(3) {
+	    width: calc(50% - 50px);
+	}
+
+	.total_winner_item h3 {
+	    font-size: 10px;
+	    line-height: 14px;
+	}
+
+	.total_winner_item p {
+	    font-size: 16px;
+	    line-height: 20px;
 	}
 
 	/*-- /Section 1 - Jackpot Page --*/

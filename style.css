@@ -1684,7 +1684,7 @@ label {
 }
 
 .draw_item h3 {
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     font-weight: 600;
     font-size: 12px;
     line-height: 130%;
@@ -5872,6 +5872,8 @@ p.countdown {
 
 .total_winner_2 {
     margin-bottom: 18px;
+    position: relative;
+    z-index: 4;
 }
 
 .fire_2 {
