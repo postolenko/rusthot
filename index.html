@@ -27,8 +27,7 @@
 				</a>
 			</div>
 			<div class="right">
-				<div class="main_nav_wrapp" id="resp_nav">
-					<button type="button" class="close_nav"></button>
+				<div class="main_nav_wrapp">
 					<ul class="main_nav">
 						<li>
 							<a href="#">
@@ -118,6 +117,51 @@
 
 	<!-- /Header -->
 
+	<!-- Resp Menu -->
+
+	<div class="resp_menu" id="resp_nav">
+		<button type="button" class="close_nav"></button>
+		<ul class="resp_nav_list">
+			<li>
+				<a href="#">Link 1</a>
+			</li>
+			<li>
+				<a href="#">Link 2</a>
+			</li>
+			<li>
+				<a href="#">Link 3</a>
+			</li>
+		</ul>
+		<ul class="soc_links">
+			<li>
+				<a href="#">
+					<img class="visible" src="img/tel.svg" alt="" />
+					<img class="hover" src="img/tel_white.svg" alt="" />
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="visible" src="img/tw.svg" alt="" />
+					<img class="hover" src="img/tw_white.svg" alt="" />
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="visible" src="img/vk.svg" alt="" />
+					<img class="hover" src="img/vk_white.svg" alt="" />
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="visible" src="img/dc.svg" alt="" />
+					<img class="hover" src="img/dc_white.svg" alt="" />
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	 <!-- /Resp Menu -->
+
 	<!-- Content -->
 		<div class="content">
 
@@ -125,7 +169,7 @@
 
 		<!-- <section> -->
 			<div class="content_templ">
-				<div class="left">
+				<div class="left" id="chatMenu">
 					<div class="sidebar">
 						<div class="sidebar_header">
 							<div class="col_1">
@@ -139,6 +183,7 @@
 								</div>
 							</div>
 							<div class="col_2">
+								<button type="button" class="red_pill close_chat"><span>закрыть</span></button>
 								<div class="count_chat_users">
 									<i class="green_light"></i>
 									<p>621</p>
@@ -436,6 +481,22 @@
 							</div>
 						</div>
 					</div>
+					<div class="form_wrapp resp_form_wrapp">
+						<form>
+							<div class="form">
+								<div class="col">
+									<div class="input_wrapp_2">
+										<div class="show_field"></div>
+										<input type="text" id="form_input" oninput="getCount()" placeholder="Ваше сообщение..." name="" />
+										<div class="count_symbols" data-maxsimbols = "100">100</div>
+									</div>
+								</div>
+								<div class="col">
+									<button type="submit" class="submit_btn"></button>
+								</div>
+							</div>
+						</form>
+					</div>
 				</div>
 				<div class="right index_bg">
 					<div class="z_wrapp">
@@ -631,18 +692,6 @@
 												<p class="c_t">до начала игры:</p>
 												<p class="countdown" id="countdown"></p>
 											</div>
-											<!-- <ul class="history_list">
-												<li><a href="#"><span class="green_circ"></span></a></li>
-												<li><a href="#"><span class="blue_circ"></span></a></li>
-												<li><a href="#"><span class="red_circ"></span></a></li>
-												<li><a href="#"><span class="gray_circ"></span></a></li>
-												<li><a href="#"><span class="green_circ"></span></a></li>
-												<li><a href="#"><span class="blue_circ"></span></a></li>
-												<li><a href="#"><span class="red_circ"></span></a></li>
-												<li><a href="#"><span class="gray_circ"></span></a></li>
-												<li><a href="#"><span class="red_circ"></span></a></li>
-												<li><a href="#"><span class="red_circ"></span></a></li>
-											</ul> -->
 										</div>
 									</div>
 									<ul class="history_list">
@@ -1229,7 +1278,7 @@
 	<!-- Footer -->
 
 		<footer class="footer_section">
-			<!-- <div class="footer_templ">
+			<div class="footer_templ">
 				<div class="left">
 					<div class="form_wrapp">
 						<form>
@@ -1285,7 +1334,59 @@
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
+			<!-- Resp Footer -->
+			<div class="resp_footer">
+				<ul class="resp_nav">
+					<li>
+						<a href="#">
+							<div class="icon_box">
+								<i class="star visible"></i>
+								<i class="star_red hover"></i>
+							</div>
+							<p>Джекпот</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="icon_box">
+								<i class="doble_resp visible"></i>
+								<i class="doble_resp_red hover"></i>
+							</div>
+							<p>дабл</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="icon_box">
+								<i class="cup_resp visible"></i>
+								<i class="cup_resp_red hover"></i>
+							</div>
+							<p>топ</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="chat_link">
+							<div class="icon_box">
+								<i class="chat_resp visible"></i>
+								<i class="chat_resp_red hover"></i>
+							</div>
+							<p>чат</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="more_link">
+							<div class="more_dots">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<p>еще</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /Resp Footer -->
 		</footer>
 
 	<!-- /Footer -->

@@ -1,5 +1,5 @@
 function getSidebarHeight() {
-  $(".sidebar").css({
+  $(".wrapper").css({
     "padding-bottom" : $(".footer_section").height() + "px"
   });
   $("#chatUsers").css({
@@ -153,30 +153,51 @@ var x = setInterval(function() {
 
 // ----------
 
-  // $(".respmenubtn").click(function(e) {
-  //     e.preventDefault();
-  //     if( $("#resp_nav").is(":hidden") ) {
-  //         $("#resp_nav").fadeIn(300);
-  //         $(this).addClass("active");
-  //     } else {
-  //         $("#resp_nav").fadeOut(300);
-  //         $(this).removeClass("active");
-  //     }
-  // });
-  // $("#resp_nav .close_nav").on("click", function(e) {
-  //     e.preventDefault();
-  //     $("#resp_nav").fadeOut(300);
-  //     $(".respmenubtn").removeClass("active");
-  // });
-  // $(this).keydown(function(eventObject){
-  //     if (eventObject.which == 27 &&
-  //         $("#resp_nav").is(":visible") &&
-  //         bodyWidth <= 1124) {
-  //             $("#resp_nav").fadeOut(300);
-  //             $(".respmenubtn").removeClass("active");
-  //     }
-  // });
+  $(".more_link").click(function(e) {
+      e.preventDefault();
+      if( $("#resp_nav").is(":hidden") ) {
+          $("#resp_nav").fadeIn(300);
+          $(this).addClass("active");
+      } else {
+          $("#resp_nav").fadeOut(300);
+          $(this).removeClass("active");
+      }
+  });
+  $(".close_nav").on("click", function(e) {
+      e.preventDefault();
+      $("#resp_nav").fadeOut(300);
+  });
+  $(this).keydown(function(eventObject){
+      if (eventObject.which == 27 &&
+          $("#resp_nav").is(":visible") &&
+          bodyWidth <= 1300) {
+              $("#resp_nav").fadeOut(300);
+      }
+  });
 
-  // -----------
+  // ----------
+
+  $(".chat_link").click(function(e) {
+      e.preventDefault();
+      if( $("#chatMenu").is(":hidden") ) {
+          $("#chatMenu").fadeIn(300);
+          $(this).addClass("active");
+      } else {
+          $("#chatMenu").fadeOut(300);
+          $(this).removeClass("active");
+      }
+  });
+  $(".close_chat").on("click", function(e) {
+      e.preventDefault();
+      $("#chatMenu").fadeOut(300);
+  });
+  $(this).keydown(function(eventObject){
+      if (eventObject.which == 27 &&
+          $("#chatMenu").is(":visible") &&
+          bodyWidth <= 1300) {
+              $("#chatMenu").fadeOut(300);
+      }
+  });
+
 
 });
