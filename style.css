@@ -284,6 +284,13 @@ a {
     color: #A2A3B8;
 }
 
+a:visited,
+a:hover,
+a:active,
+a:focus {
+    outline: none;
+}
+
 li {
     list-style: none;
     font-family: "SF UI Display";
@@ -298,6 +305,7 @@ img {
     outline: none;
     border: 1px solid transparent;
     border: none;
+    content: '';
 }
 
 button:hover,
