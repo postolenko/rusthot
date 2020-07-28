@@ -1177,6 +1177,10 @@
 	    width: calc(65% - 40px);
 	}
 
+	.table .cell:nth-child(4) {
+	    width: 25%;
+	}
+
 	/*-- /Section 1 - top Page --*/
 
 }
@@ -1753,6 +1757,38 @@ p.countdown {
 	}
 
 	/*-- /Section 1 - top Page --*/
+
+	/*-- Section 1 - Support Page New Ticket --*/
+
+	.table .cell {
+	    padding: 5px 5px;
+	}
+
+	.table .cell:nth-child(1) {
+	    width: 25px;
+	}
+
+	.table .cell:nth-child(2) {
+	    width: calc(75% - 25px);
+	}
+
+	.table .cell:nth-child(3) {
+		display: none;
+	}
+
+	.table .cell:nth-child(4) {
+	    width: 25%;
+	}
+
+	.user_info h3 {
+	    font-size: 12px;
+	}
+
+	.table p {
+	    font-size: 12px;
+	}
+
+	/*-- /Section 1 - Support Page New Ticket --*/
 
 }
 
