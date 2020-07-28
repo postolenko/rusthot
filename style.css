@@ -4900,8 +4900,6 @@ input {
     height: auto;
 }
 
-
-
 .raffle_case_wrapp .img_box {
     height: 135px;
     position: relative;
@@ -4995,43 +4993,26 @@ input {
     background-position: center;
 }
 
-.gamer_params > div:nth-child(1) {
-    width: calc(100% - 150px);
+.gamer_params > div {
     position: relative;
     z-index: 2;
 }
 
-/*.gamer_params > div:nth-child(1):before {
-    display: block;
-    content: "";
-    background: radial-gradient(50% 61.36% at 50% 100%, #FF2C2C 0%, rgba(28, 29, 45, 0) 100%);
-    opacity: .5;
-    transform: rotate(90deg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 50px;
-}*/
+.gamer_params > div:nth-child(1) {
+    width: 150px;
+}
 
 .gamer_params > div:nth-child(2) {
-    width: 150px;
-    position: relative;
-    z-index: 2;
+    width: calc(100% - 300px);
 }
 
-/*.gamer_params > div:nth-child(2):after {
-    display: block;
-    content: "";
-    background: radial-gradient(50% 61.36% at 50% 100%, #FF2C2C 0%, rgba(28, 29, 45, 0) 100%);
-    opacity: .5;
-    transform: matrix(0, 1, 1, 0, 0, 0);
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 50px;
-}*/
+.gamer_params > div:nth-child(3) {
+    width: 150px;
+}
+
+.single_item h3 {
+    line-height: 166%;
+}
 
 .items_2 {
     display: flex;
@@ -5528,20 +5509,9 @@ box-shadow: inset 0px 0px 91px 76px rgba(23,25,37,1);
     margin: 0;
 }
 
-.gamer_params_wrapp_2 .draw_item {
-    margin: 1px 12px;
-}
-
 .gamer_params_2 {
+    padding-right: 8px;
     padding-left: 25px;
-}
-
-.gamer_params_2 > div:nth-child(1) {
-    order: 2;
-}
-
-.gamer_params_2 > div:nth-child(2) {
-    order: 1;
 }
 
 .gamer_params_2 {
@@ -5590,10 +5560,6 @@ box-shadow: inset 0px 0px 91px 76px rgba(23,25,37,1);
     background-position: center;
 }
 
-.user_wrapp_2_2 {
-
-}
-
 .user_wrapp_2_2 > div:nth-child(1) {
     order: 2;
     text-align: left;
@@ -5602,6 +5568,32 @@ box-shadow: inset 0px 0px 91px 76px rgba(23,25,37,1);
 .user_wrapp_2_2 > div:nth-child(2) {
     order: 1;
     text-align: left;
+}
+
+.gamer_params_2 > div:nth-child(3) {
+    order: 1;
+}
+
+.gamer_params_2 > div:nth-child(2) {
+    order: 2;
+}
+
+.gamer_params_2 > div:nth-child(1) {
+    order: 3;
+}
+
+.gamer_params_2 .single_item .draw_item > div:nth-child(1) {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    order: 2;
+}
+
+.gamer_params_2 .single_item .draw_item > div:nth-child(2) {
+    order: 1;
 }
 
 .user_avatar.yellow {

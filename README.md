@@ -1,4 +1,7 @@
 # http://postolenko.github.io/rusthot/index.html
+# http://postolenko.github.io/rusthot/jackpot.html
+# http://postolenko.github.io/rusthot/jackpot_2.html
+# http://postolenko.github.io/rusthot/jackpot_3.html
 # http://postolenko.github.io/rusthot/history.html
 # http://postolenko.github.io/rusthot/profile.html
 # http://postolenko.github.io/rusthot/support.html
@@ -7,6 +10,3 @@
 # http://postolenko.github.io/rusthot/top.html
 # http://postolenko.github.io/rusthot/raffle.html
 # http://postolenko.github.io/rusthot/raffle_2.html
-# http://postolenko.github.io/rusthot/jackpot.html
-# http://postolenko.github.io/rusthot/jackpot_2.html
-# http://postolenko.github.io/rusthot/jackpot_3.html

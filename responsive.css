@@ -15,6 +15,71 @@
 
 }
 
+@media only screen and (max-width: 1850px) {
+
+	/*-- Section 1 - Jackpot Page --*/
+
+	.two_cols_4 {
+	    display: block;
+	    max-width: 900px;
+	    margin: 20px auto 0 auto;
+	}
+
+	.two_cols_4 > div:nth-child(1) {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	.two_cols_4 > div:nth-child(2) {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	.gamer_params_2 {
+	    padding-right: 25px;
+	    padding-left: 0;
+	}
+
+	.user_wrapp_2_2 > div:nth-child(1) {
+	    order: 1;
+	    text-align: right;
+	}
+
+	.user_wrapp_2_2 > div:nth-child(2) {
+	    order: 2;
+	    text-align: right;
+	}
+
+	.gamer_params_2 > div:nth-child(3) {
+	    order: 3;
+	}
+
+	.gamer_params_2 > div:nth-child(2) {
+	    order: 2;
+	}
+
+	.gamer_params_2 > div:nth-child(1) {
+	    order: 1;
+	}
+
+	.gamer_params_2 .single_item .draw_item > div:nth-child(1) {
+	    justify-content: flex-start;
+	    -webkit-justify-content: flex-start;
+	    order: 1;
+	}
+
+	.gamer_params_2 .single_item .draw_item > div:nth-child(2) {
+	    order: 2;
+	}
+
+	.thumbnails_2 .thumb_2 {
+	    width: calc(25% - 16px);
+	}
+
+	/*-- /Section 1 - Jackpot Page --*/
+
+}
+
 @media only screen and (max-width: 1730px) {
 
 	/*-- Section 1 - Main Page --*/
@@ -157,6 +222,17 @@
 
 }
 
+@media only screen and (max-width: 1590px) {
+
+	/*-- Section 1 - Jackpot Page --*/
+
+	.thumbnails_2 .thumb_2 {
+	    width: calc(33.33% - 16px);
+	}
+
+	/*-- /Section 1 - Jackpot Page --*/
+}
+
 @media only screen and (max-width: 1400px) {
 
 /*-- Section 1 - Main Page --*/
@@ -242,7 +318,6 @@
 }
 
 .lang_wrapp {
-    /*width: 120px;*/
     padding-top: 11px;
 }
 
@@ -609,6 +684,14 @@
 
 /*-- /Section 1 - Main Page --*/
 
+/*-- Section 1 - Jackpot Page --*/
+
+.thumbnails_2 .thumb_2 {
+    width: calc(50% - 16px);
+}
+
+/*-- /Section 1 - Jackpot Page --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -665,11 +748,6 @@
 
 /*-- Section 1 - Main Page --*/
 
-/*.rotate {
-    top: 16px;
-    transform: scale(.8);
-}*/
-
 .filter_wrapp {
     margin: 10px 0;
 }
@@ -693,7 +771,19 @@
 
 @media only screen and (max-width: 767px) {
 
+	/*-- Section 1 - Jackpot Page --*/
 
+	.gamer_params {
+		justify-content: space-between;
+		-webkit-justify-content: space-between;
+		padding-left: 5px !important;
+	}
+
+	.gamer_params > div:nth-child(2) {
+	    display: none;
+	}
+
+	/*-- /Section 1 - Jackpot Page --*/
 
 }
 
@@ -743,6 +833,19 @@
 }
 
 /*-- /Section 1 - Main Page --*/
+
+/*-- Section 1 - Jackpot Page --*/
+
+.thumbnails_2 {
+    margin: 7px -15px;
+}
+
+.thumbnails_2 .thumb_2 {
+    width: 100%;
+    margin: 8px 0;
+}
+
+/*-- /Section 1 - Jackpot Page --*/
 
 }
 
@@ -897,8 +1000,55 @@ p.countdown {
 		line-height: 19px;
 	}
 
-
 	/*-- /Section 1 - Main Page --*/
+
+	/*-- Section 1 - Jackpot Page --*/
+
+	.gamer_params {
+	    display: block;
+	    padding: 10px 10px !important;
+	}
+
+	.gamer_params > div {
+		width: 100% !important; 
+		align-items: center;
+		-webkit-align-items: center;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	.gamer_params .draw_item {
+		display: inline-flex;
+		display: -webkit-inline-flex;
+		align-items: center;
+		-webkit-align-items: center;
+	}
+
+	.single_item {
+		text-align: center;
+	}
+
+	.gamer_params  .user_wrapp_2 {
+		display: inline-flex;
+		display: -webkit-inline-flex;
+		align-items: center;
+		-webkit-align-items: center;
+		width: auto;
+	}
+
+	.user_wrapp_2 > div:nth-child(1) {
+	    width: calc(100% - 55px);
+	    text-align: left;
+	    order: 2;
+	}
+
+	.user_wrapp_2 > div:nth-child(2) {
+	    width: 55px;
+	    text-align: left;
+	    order: 1;
+	}
+
+	/*-- /Section 1 - Jackpot Page --*/
 
 }
 
