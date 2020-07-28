@@ -2969,6 +2969,14 @@ input {
     color: #FFFFFF;
 }
 
+.resp_text_wrapp {
+    display: none;
+}
+
+.draws_items_resp {
+    display: none;
+}
+
 /*-- /Section 1 - History Page --*/
 
 /*-- Section 1 - top Page --*/

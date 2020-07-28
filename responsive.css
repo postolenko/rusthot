@@ -250,6 +250,32 @@
 
 	/*-- /Section 1 - Raffle Page --*/
 
+	/*-- Section 1 - History Page --*/
+
+	.history_header .col {
+		width: 50%;
+	}
+
+	.history_header .col:last-child {
+		display: none;
+	}
+
+	.draws_items_2 {
+	    justify-content: flex-end;
+	    -webkit-justify-content: flex-end;
+	}
+
+	.resp_text_wrapp {
+	    display: block;
+	    padding: 15px 0 10px 0;
+	}
+
+	.text_wrapp_2 p {
+	    text-align: center;
+	}
+
+	/*-- /Section 1 - History Page --*/
+
 }
 
 @media only screen and (max-width: 1650px) {
@@ -1087,6 +1113,38 @@
 
 /*-- /Section 1 - Support Page --*/
 
+/*-- Section 1 - History Page --*/
+
+.history_header .col:nth-child(1) {
+	width: 100%;
+}
+
+.history_header .col:nth-child(2) {
+	display: none;
+}
+
+.draws_items_2 {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.draws_items_resp {
+    display: flex;
+    display: -webkit-flex;
+    margin: 20px 0 0 0;
+}
+
+.history_goods {
+	justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.history_goods .history_good {
+    margin: 8px 8px;
+}
+
+/*-- /Section 1 - History Page --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1789,6 +1847,22 @@ p.countdown {
 	}
 
 	/*-- /Section 1 - Support Page New Ticket --*/
+
+	/*-- Section 1 - History Page --*/
+
+	.draws_items_resp {
+	    justify-content: center;
+	    -webkit-justify-content: center;
+	    padding-left: 10px;
+	}
+
+	.draws_items_resp .draw_item {
+	    display: block;
+	    width: 33.33%;
+	    margin: 5px 5px;
+	}
+
+	/*-- /Section 1 - History Page --*/
 
 }
 
