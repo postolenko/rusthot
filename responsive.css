@@ -35,9 +35,13 @@
 	    padding: 10px 0;
 	}
 
+	.gamer_params {
+	    padding-left: 12px;
+	}
+
 	.gamer_params_2 {
 	    padding-right: 25px;
-	    padding-left: 0;
+	    padding-left: 10px;
 	}
 
 	.user_wrapp_2_2 > div:nth-child(1) {
