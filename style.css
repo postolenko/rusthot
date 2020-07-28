@@ -2114,19 +2114,13 @@ label {
 }
 
 .red_icon {
-    width: 50px;
-    height: 50px;
+    width: 22px;
+    height: 22px;
     display: block;
     background-image: url(img/doble_red.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-}
-
-.filter_box_title > div:nth-child(1) i {
-    position: absolute;
-    top: -16px;
-    left: -15px;
 }
 
 .filter_box_title h3 {
@@ -6259,6 +6253,14 @@ footer {
     opacity: 0;
 }
 
+.resp_nav li a:hover .icon_box i.visible {
+    opacity: 0;
+}
+
+.resp_nav li a:hover .icon_box i.hover {
+    opacity: 1;
+}
+
 .resp_nav li a p {
     font-weight: bold;
     font-size: 12px;
@@ -6300,7 +6302,7 @@ footer {
     display: block;
     width: 18px;
     height: 18px;
-    background-image: url(img/star_resp.svg);
+    background-image: url(img/star.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -6310,7 +6312,7 @@ footer {
     display: block;
     width: 18px;
     height: 18px;
-    background-image: url(img/star_red_resp.svg);
+    background-image: url(img/star_red.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -6330,7 +6332,7 @@ footer {
     display: block;
     width: 15px;
     height: 20px;
-    background-image: url(img/doble_red_resp.svg);
+    background-image: url(img/doble_red.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -6350,7 +6352,7 @@ footer {
     display: block;
     width: 16px;
     height: 16px;
-    background-image: url(img/cup_red_resp.svg);
+    background-image: url(img/cup_red.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
