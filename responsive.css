@@ -235,6 +235,27 @@
 	}
 
 	/*-- /Section 1 - Jackpot Page --*/
+
+	/*-- Section 1 - Profile Page --*/
+
+	.profile_thumbnails_wrapp {
+	    padding: 20px 0 22px 0;
+	}
+
+	.profile_thumb .draw_item {
+		display: block;
+	}
+
+	.draw_item > div:nth-child(1) {
+	    width: 100%;
+	    padding-bottom: 13px;
+	}
+
+	.draw_item > div:nth-child(2) {
+	    width: 100%;
+	}
+
+	/*-- Section 1 - Profile Page --*/
 }
 
 @media only screen and (max-width: 1400px) {
@@ -482,7 +503,7 @@
 	display: none;
 }
 
-.content_templ .right {
+.content_templ > .right {
 	width: 100%;
     padding: 25px 20px 0 20px;
 }
@@ -746,6 +767,25 @@
 
 /*-- /Section 1 - Main Page --*/
 
+/*-- Section 1 - Profile Page --*/
+
+	.profile_templ {
+		display: block;
+	}
+
+	.profile_templ .left {
+	    width: 265px;
+	    margin: 0 auto;
+	    padding: 10px 0;
+	}
+
+	.profile_templ .right {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+/*-- /Section 1 - Profile Page --*/
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -771,6 +811,29 @@
 
 /*-- /Section 1 - Main Page --*/
 
+/*-- Section 1 - Profile Page --*/
+
+.inner_header {
+	display: block;
+}
+
+.inner_header > div:nth-child(1) {
+    width: 100%;
+    padding-right: 0;
+}
+
+.inner_header > div:nth-child(2) {
+    width: 100%;
+    padding-left: 0;
+}
+
+.choise_goods_thumbnails {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+/*-- /Section 1 - Profile Page --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -788,6 +851,28 @@
 	}
 
 	/*-- /Section 1 - Jackpot Page --*/
+
+	/*-- Section 1 - Profile Page --*/
+
+	.profile_thumb {
+		margin: 10px 10px;
+	}
+
+	.profile_thumb .draw_item {
+	    display: flex;
+	    display: -webkit-flex;
+	}
+
+	.draw_item > div:nth-child(1) {
+	    width: 40px;
+	    padding-bottom: 0;
+	}
+
+	.draw_item > div:nth-child(2) {
+	    width: calc(100% - 40px);
+	}
+
+	/*-- /Section 1 - Profile Page --*/
 
 }
 
@@ -850,6 +935,14 @@
 }
 
 /*-- /Section 1 - Jackpot Page --*/
+
+/*-- Section 1 - Profile Page --*/
+
+.history_title {
+	display: none;
+}
+
+/*-- /Section 1 - Profile Page --*/
 
 }
 
@@ -951,6 +1044,10 @@ p.countdown {
 .total_winner_item p {
     font-size: 18px;
     line-height: 20px;
+}
+
+.inner_header > div:nth-child(2) {
+	display: none;
 }
 
 /*-- /Section 1 - Jackpot Page --*/
@@ -1138,6 +1235,87 @@ p.countdown {
 	}
 
 	/*-- /Section 1 - Jackpot Page --*/
+
+	/*-- Section 1 - Profile Page --*/
+
+	.profile_thumbnails_wrapp {
+	    padding: 20px 20px 22px 36px;
+	}
+
+	.profile_thumb {
+		width: 100%;
+		margin: 14px 0;
+	}
+
+	.profile_thumb .draw_item {
+	    display: flex;
+	    display: -webkit-flex;
+	}
+
+	.draw_item > div:nth-child(1) {
+	    width: 40px;
+	    padding-bottom: 0;
+	}
+
+	.draw_item > div:nth-child(2) {
+	    width: calc(100% - 40px);
+	}
+
+	.profile_form {
+		display: block;
+	    margin: 15px 0;
+	}
+
+	.profile_form .col_1,
+	.profile_form .col_2 {
+	    width: 100%;
+	    padding: 5px 0;
+	}
+
+	.profile_form .col_2 {
+		text-align: center;
+	}
+
+	.profile_form .red_pill {
+		display: block;
+		width: 100%;
+		max-width: 224px;
+	    margin: 0 auto;
+	}
+
+	.s_hide {
+		display: none;
+	}
+
+	.s_visible {
+		display: block;
+	}
+
+	.inner_header > div:nth-child(1):before {
+	    display: block;
+	    height: 2px;
+	    width: 100%;
+	    content: "";
+		background: -moz-linear-gradient(left,  rgba(255,44,44,0) 0%, rgba(255,44,44,1) 100%);
+		background: -webkit-linear-gradient(left,  rgba(255,44,44,0) 0%,rgba(255,44,44,1) 100%);
+		background: linear-gradient(to right,  rgba(255,44,44,0) 0%,rgba(255,44,44,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff2c2c', endColorstr='#ff2c2c',GradientType=1 );
+	}
+
+	.title_wrapp_2 {
+	    padding: 0 10px;
+	}
+
+	.choise_goods_thumbnails {
+	    margin: 0 -2px;
+	}
+
+	.choise_good {
+	    margin: 5px 2px;
+	    width: 83px;
+	}
+
+	/*-- /Section 1 - Profile Page --*/
 
 }
 

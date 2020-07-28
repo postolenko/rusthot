@@ -354,6 +354,10 @@ label {
     text-align: left;
 }
 
+.s_visible {
+    display: none;
+}
+
 /*-- Slick --*/
 
 .slick-arrow {
@@ -1184,16 +1188,15 @@ label {
     width: 100%;
 }
 
-.content_templ .left {
+.content_templ > .left {
     display: flex;
     display: -webkit-flex;
     min-height: 100%;
     width: 330px;
 }
 
-.content_templ .right {
+.content_templ > .right {
     width: calc(100% - 330px);
-    /*padding: 25px 25px 0 25px;*/
     padding: 25px 25px 15px 25px;
 }
 
@@ -1210,7 +1213,6 @@ label {
     display: -webkit-flex;
     padding: 9px 25px 6px 11px;
     border-bottom: 1px solid #2E2F42;
-    /*background-image: url(img/sidebar_header_bg.jpg);*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1646,6 +1648,7 @@ label {
 }
 
 .green_pill span {
+    white-space: nowrap;
     position: relative;
     z-index: 2;
 }
@@ -1768,14 +1771,12 @@ label {
     max-width: 873px;
     height: 345px;
     margin: 0 auto;
-    /*height: 873px;*/
     position: relative;
     overflow: hidden;
 }
 
 .circle_bg {
     position: absolute;
-    /*bottom: -96px;*/
     bottom: -65px;
     left: 50%;
     margin-left: -476px;
@@ -2722,6 +2723,7 @@ input {
 }
 
 .red_pill span {
+    white-space: nowrap;
     width: 100%;
     font-weight: bold;
     font-size: 12px;
@@ -4422,6 +4424,11 @@ input {
     margin: 0;
 }
 
+.resp_link {
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+
 .inner_header {
     display: flex;
     display: -webkit-flex;
@@ -4491,8 +4498,6 @@ input {
 .btns_wrapp {
     display: flex;
     display: -webkit-flex;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
     margin: 0 -10px;
 }
 
@@ -4515,7 +4520,7 @@ input {
     display: flex;
     display: -webkit-flex;
     flex-wrap: wrap;
-    -webkit-flex-wrap: wrap
+    -webkit-flex-wrap: wrap;
     margin: 0 -5px;
 }
 
