@@ -1774,7 +1774,7 @@ p.countdown {
 	}
 
 	.content_templ > .right {
-	    padding: 25px 0 0 0;
+	    padding: 25px 15px 0 15px;
 	}
 
 	.chat_message_wrapp {
