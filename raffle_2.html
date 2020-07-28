@@ -27,7 +27,7 @@
 				</a>
 			</div>
 			<div class="right">
-				<div class="main_nav_wrapp" id="resp_nav">
+				<div class="main_nav_wrapp">
 					<ul class="main_nav">
 						<li>
 							<a href="#">
@@ -93,16 +93,74 @@
 						</div>
 					</a>
 				</div>
-				<button class="respmenubtn">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
+				<div class="resp_toolbar">
+					<div>
+						<p class="balance_red">61 690<i class="icon_02"></i></p>
+					</div>
+					<div>
+						<a href="#" class="ref_btn"></a>
+					</div>
+					<div>
+						<a hef="#" class="ava">
+							<div class="img_box">
+								<img src="img/ava.jpg" alt="" />
+							</div>
+						</a>
+					</div>
+					<div>
+						<a href="#" class="logout"></a>
+					</div>
+				</div>
 			</div>
 		</div>								
 	</header>
 
 	<!-- /Header -->
+
+	<!-- Resp Menu -->
+
+	<div class="resp_menu" id="resp_nav">
+		<button type="button" class="close_nav"></button>
+		<ul class="resp_nav_list">
+			<li>
+				<a href="#">Link 1</a>
+			</li>
+			<li>
+				<a href="#">Link 2</a>
+			</li>
+			<li>
+				<a href="#">Link 3</a>
+			</li>
+		</ul>
+		<ul class="soc_links">
+			<li>
+				<a href="#">
+					<img class="visible" src="img/tel.svg" alt="" />
+					<img class="hover" src="img/tel_white.svg" alt="" />
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="visible" src="img/tw.svg" alt="" />
+					<img class="hover" src="img/tw_white.svg" alt="" />
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="visible" src="img/vk.svg" alt="" />
+					<img class="hover" src="img/vk_white.svg" alt="" />
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="visible" src="img/dc.svg" alt="" />
+					<img class="hover" src="img/dc_white.svg" alt="" />
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	 <!-- /Resp Menu -->
 
 	<!-- Content -->
 		<div class="content">
@@ -110,7 +168,7 @@
 		<!-- Section 1 - Raffle Page -->
 
 		<div class="content_templ">
-			<div class="left">
+			<div class="left" id="chatMenu">
 				<div class="sidebar">
 					<div class="sidebar_header">
 						<div class="col_1">
@@ -124,6 +182,7 @@
 							</div>
 						</div>
 						<div class="col_2">
+							<button type="button" class="red_pill close_chat"><span>закрыть</span></button>
 							<div class="count_chat_users">
 								<i class="green_light"></i>
 								<p>621</p>
@@ -341,7 +400,100 @@
 								</div>
 							</div>
 						</div>
+						<div class="user_item">
+							<div class="col">
+								<div class="user_avatar_wrapp">
+									<div class="user_avatar">
+										<div class="img_box">
+											<img src="img/avatar.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="user_text">
+									<div class="user_text_header">
+										<div>
+											<h4>Freit</h4>
+										</div>
+										<div>
+											<p>20:32</p>
+										</div>
+									</div>
+									<div class="user_text_content">
+										<p>Сообщение пользователя, даже в две строки, а может даже и в три можно сделать</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="user_item">
+							<div class="col">
+								<div class="user_avatar_wrapp">
+									<div class="user_avatar">
+										<div class="img_box">
+											<img src="img/avatar.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="user_text">
+									<div class="user_text_header">
+										<div>
+											<h4>Freit</h4>
+										</div>
+										<div>
+											<p>20:32</p>
+										</div>
+									</div>
+									<div class="user_text_content">
+										<p>Сообщение пользователя, даже в две строки, а может даже и в три можно сделать</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="user_item">
+							<div class="col">
+								<div class="user_avatar_wrapp">
+									<div class="user_avatar">
+										<div class="img_box">
+											<img src="img/avatar.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="user_text">
+									<div class="user_text_header">
+										<div>
+											<h4>Freit</h4>
+										</div>
+										<div>
+											<p>20:32</p>
+										</div>
+									</div>
+									<div class="user_text_content">
+										<p>Сообщение пользователя, даже в две строки, а может даже и в три можно сделать</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
+				</div>
+				<div class="form_wrapp resp_form_wrapp">
+					<form>
+						<div class="form">
+							<div class="col">
+								<div class="input_wrapp_2">
+									<input type="text" id="form_input" oninput="getCount()" placeholder="Ваше сообщение..." name="" />
+									<div class="count_symbols" data-maxsimbols = "100">100</div>
+								</div>
+							</div>
+							<div class="col">
+								<button type="submit" class="submit_btn"></button>
+							</div>
+						</div>
+					</form>
 				</div>
 			</div>
 			<div class="right top_bg">
@@ -425,39 +577,46 @@
 								</div>
 							</div>
 							<div>
-								<div class="gamer_params_wrapp">
-									<div class="gamer_params">
+								<div>
+									<div class="gamer_params_wrapp gamer_params_wrapp_1">
 										<div>
-											<div class="items_2">
-												<div class="draw_item">
-													<div>
-														<img src="img/cub_red.svg" alt="" />
-													</div>
-													<div>
-														<h3>последний</h3>
-														<h3>победитель</h3>
-													</div>
-												</div>
-												<div class="draw_item">
-													<div>
-														<img src="img/percent_red.svg" alt="" />
-													</div>
-													<div>
-														<h3>процент</h3>
-														<p>1.97</p>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div>
-											<div class="user_wrapp_2">
+											<div class="gamer_params gamer_params_1">
 												<div>
-													<h3>Konstantin Konstan</h3>
+													<div class="single_item">
+														<div class="draw_item">
+															<div>
+																<img src="img/cub_red.svg" alt="" />
+															</div>
+															<div>
+																<h3>последний победитель</h3>
+															</div>
+														</div>
+													</div>
 												</div>
 												<div>
-													<div class="user_avatar red">
-														<div class="img_box">
-															<img src="img/avatar.jpg" alt="">
+													<div class="items_2">
+														<div class="draw_item">
+															<div>
+																<img src="img/percent_red.svg" alt="" />
+															</div>
+															<div>
+																<h3>процент</h3>
+																<p>1.97</p>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div>
+													<div class="user_wrapp_2">
+														<div>
+															<h3>Konstantin Konstan</h3>
+														</div>
+														<div>
+															<div class="user_avatar red">
+																<div class="img_box">
+																	<img src="img/avatar.jpg" alt="">
+																</div>
+															</div>
 														</div>
 													</div>
 												</div>
@@ -523,6 +682,83 @@
 									<div>
 										<h3>Условие</h3>
 										<p>Описание условия</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="resp_box">
+							<div class="items resp_items">
+								<div class="draw_item">
+									<div>
+										<img src="img/cub.svg" alt="" />
+									</div>
+									<div>
+										<h3>предмет</h3>
+										<p>Horror bag</p>
+									</div>
+								</div>
+								<div class="draw_item">
+									<div>
+										<img src="img/user.svg" alt="" />
+									</div>
+									<div>
+										<h3>участников</h3>
+										<p>256</p>
+									</div>
+								</div>
+								<div class="draw_item">
+									<div>
+										<img src="img/clock.svg" alt="" />
+									</div>
+									<div>
+										<h3>до розыгрыша</h3>
+										<p>15:56:21</p>
+									</div>
+								</div>
+							</div>
+							<div class="gamer_params_wrapp gamer_params_wrapp_1 gamer_params_wrapp_resp">
+								<div>
+									<div class="gamer_params gamer_params_1">
+										<div>
+											<div class="single_item">
+												<div class="draw_item">
+													<div>
+														<img src="img/cub_red.svg" alt="" />
+													</div>
+													<div>
+														<h3>последний победитель</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="items_2">
+												<div class="draw_item">
+													<div>
+														<img src="img/percent_red.svg" alt="" />
+													</div>
+													<div>
+														<h3>процент</h3>
+														<p>1.97</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="user_wrapp_2">
+												<div>
+													<h3>Konstantin Konstan</h3>
+												</div>
+												<div>
+													<div class="user_avatar red">
+														<div class="img_box">
+															<img src="img/avatar.jpg" alt="">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -688,8 +924,8 @@
 								<div class="col">
 									<div class="input_wrapp_2">
 										<div class="show_field"></div>
-										<input type="text" placeholder="Ваше сообщение..." name="" />
-										<div class="count_symbols">100</div>
+										<input type="text" id="form_input" oninput="getCount()" placeholder="Ваше сообщение..." name="" />
+										<div class="count_symbols" data-maxsimbols = "100">100</div>
 									</div>
 								</div>
 								<div class="col">
@@ -737,6 +973,58 @@
 					</div>
 				</div>
 			</div>
+			<!-- Resp Footer -->
+			<div class="resp_footer">
+				<ul class="resp_nav">
+					<li>
+						<a href="#">
+							<div class="icon_box">
+								<i class="star visible"></i>
+								<i class="star_red hover"></i>
+							</div>
+							<p>Джекпот</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="icon_box">
+								<i class="doble_resp visible"></i>
+								<i class="doble_resp_red hover"></i>
+							</div>
+							<p>дабл</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="icon_box">
+								<i class="cup_resp visible"></i>
+								<i class="cup_resp_red hover"></i>
+							</div>
+							<p>топ</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="chat_link">
+							<div class="icon_box">
+								<i class="chat_resp visible"></i>
+								<i class="chat_resp_red hover"></i>
+							</div>
+							<p>чат</p>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="more_link">
+							<div class="more_dots">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<p>еще</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /Resp Footer -->
 		</footer>
 
 	<!-- /Footer -->

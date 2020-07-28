@@ -82,6 +82,14 @@
 
 	/*-- /Section 1 - Jackpot Page --*/
 
+	/*-- Section 1 - Raffle Page --*/
+
+	.winners_thumbnails .winner_thumb {
+	    width: calc(25% - 16px);
+	}
+
+	/*-- /Section 1 - Raffle Page --*/
+
 }
 
 @media only screen and (max-width: 1730px) {
@@ -168,6 +176,80 @@
 
 	/*-- /Section 1 - Main Page --*/
 
+	/*-- Section 1 - Raffle Page --*/
+
+	.three_cols > div:nth-child(1) {
+	    width: calc(50% - 175px);
+	}
+
+	.three_cols > div:nth-child(3) {
+	    width: calc(50% - 175px);
+	    display: flex;
+	    justify-content: flex-end;
+	}
+
+	.gamer_params_wrapp {
+	    margin: 64px 0 0 8%;
+	}
+
+	.items {
+	    margin-left: 0;
+	}
+
+	.gamer_params_wrapp_1 {
+		max-width: 290px;
+	}
+
+	.gamer_params_1 {
+	    display: block;	    
+	    padding: 10px 10px !important;
+	}
+
+	.gamer_params_1 > div {
+		width: 100% !important; 
+		align-items: center;
+		-webkit-align-items: center;
+		text-align: center;
+		padding: 5px 0;
+	}
+
+	.gamer_params_1 .draw_item {
+		display: inline-flex;
+		display: -webkit-inline-flex;
+		align-items: center;
+		-webkit-align-items: center;
+	}
+
+	.single_item_1 {
+		text-align: center;
+	}
+
+	.gamer_params_1  .user_wrapp_2 {
+		display: inline-flex;
+		display: -webkit-inline-flex;
+		align-items: center;
+		-webkit-align-items: center;
+		width: auto;
+	}
+
+	.gamer_params_1 .user_wrapp_2 > div:nth-child(1) {
+	    width: calc(100% - 55px);
+	    text-align: left;
+	    order: 2;
+	}
+
+	.gamer_params_1 .user_wrapp_2 > div:nth-child(2) {
+	    width: 55px;
+	    text-align: left;
+	    order: 1;
+	}
+
+	.gamer_params_1 > div:nth-child(2) {
+		display: none;
+	}
+
+	/*-- /Section 1 - Raffle Page --*/
+
 }
 
 @media only screen and (max-width: 1650px) {
@@ -246,16 +328,21 @@
 		display: block;
 	}
 
-	.draw_item > div:nth-child(1) {
+	.profile_thumb .draw_item > div:nth-child(1) {
 	    width: 100%;
 	    padding-bottom: 13px;
 	}
 
-	.draw_item > div:nth-child(2) {
+	.profile_thumb .draw_item > div:nth-child(2) {
 	    width: 100%;
 	}
 
+	.winners_thumbnails .winner_thumb {
+	    width: calc(33.33% - 16px);
+	}
+
 	/*-- Section 1 - Profile Page --*/
+
 }
 
 @media only screen and (max-width: 1400px) {
@@ -659,6 +746,15 @@
 }
 /*-- /Resp Menu --*/
 
+/*-- Section 1 - Raffle Page --*/
+
+.item_3 {
+    width: 180px;
+	margin: 15px 10px;
+}
+
+/*-- /Section 1 - Raffle Page --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -716,6 +812,66 @@
 }
 
 /*-- /Section 1 - Jackpot Page --*/
+
+/*-- Section 1 - Support Page --*/
+
+.chat_user_header > div:nth-child(1) {
+    width: calc(100% - 60px);
+}
+
+.chat_user_header > div:nth-child(2) {
+    width: 60px;
+}
+
+.chat_user_inline .status_pill {
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 1px;
+}
+
+.chat_user_inline .status_pill p {
+    font-size: 0;
+    line-height: 0;
+}
+
+.chat_col_1 {
+    width: 320px;
+}
+
+.chat_col_2 {
+    width: calc(100% - 320px);
+}
+
+.chat_user_header h3 {
+	padding-bottom: 8px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.chat_user_content p {
+    font-size: 12px;
+    line-height: 125%;
+}
+
+.chat_user > div:nth-child(1) {
+    width: 50px;
+    padding-top: 7px;
+}
+
+.chat_user > div:nth-child(2) {
+    width: calc(100% - 50px);
+}
+
+.chat_user_inline > div {
+    padding: 0 3px;
+}
+
+.chat_user .user_avatar {
+	margin: 0;
+}
+
+/*-- /Section 1 - Support Page --*/
 
 }
 
@@ -784,6 +940,10 @@
 	    padding: 10px 0;
 	}
 
+	.winners_thumbnails .winner_thumb {
+	    width: calc(50% - 16px);
+	}
+
 /*-- /Section 1 - Profile Page --*/
 
 }
@@ -834,6 +994,99 @@
 
 /*-- /Section 1 - Profile Page --*/
 
+/*-- Section 1 - Raffle Page --*/
+
+.three_cols > div:nth-child(1) {
+    width: calc(50% - 140px);
+}
+
+.three_cols > div:nth-child(2) {
+    width: 280px;
+}
+
+.three_cols > div:nth-child(3) {
+    width: calc(50% - 140px);
+}
+
+/*-- /Section 1 - Raffle Page --*/
+
+/*-- Section 1 - Support Page --*/
+
+.chat_col_1 {
+    width: 100%;
+}
+
+.chat_col_2 {
+	display: none;
+}
+
+.support_2 .chat_col_1 {
+	display: none;
+}
+
+.support_2 .chat_col_2 {
+	width: 100%;
+	display: block;
+}
+
+.support_2 .chat_templ {
+    /*height: 71vh;*/
+    height: 74vh;
+    margin-bottom: 20px;
+}
+
+.chat_messages {
+    padding-top: 41px;
+}
+
+.support_2 .support_header .col_1 {
+	width: 100%;
+}
+
+.support_2 .support_header .col_2 {
+	display: none;
+}
+
+.chat_header_col_1 {
+    width: 100%;
+}
+
+.chat_header_col_2 {
+	display: none;
+}
+
+.inline_2 h2 {
+    font-size: 22px;
+}
+
+.resp_col {
+    display: inline;
+}
+
+.user_wrapp_2.user_wrapp_chat {
+	width: 55px;
+}
+
+.hidden_900 {
+	display: none;
+}
+
+.resp_inline {
+	margin: 0 -10px;
+}
+
+.resp_inline > div {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 10px;
+}
+
+.resp_inline .link_wrapp {
+    display: inline;
+}
+
+/*-- /Section 1 - Support Page --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -873,6 +1126,95 @@
 	}
 
 	/*-- /Section 1 - Profile Page --*/
+
+	/*-- Section 1 - Raffle Page --*/
+
+	.item_3 {
+	    width: calc(50% - 20px);
+	}
+
+	/*-- /Section 1 - Raffle Page --*/
+
+	/*-- Section 1 - Support Page --*/
+
+	.support_header .col_1 {
+	    width: 100%;
+	}
+
+	.support_header .col_2 {
+		display: none;
+	}
+
+	.resp_pill_wrapp {
+		display: block;
+	}
+
+	/*-- /Section 1 - Support Page --*/
+
+	/*-- Section 1 - top Page --*/
+
+	.top_place_1 {
+	    order: 1;
+	}
+
+	.top_place_2 {
+	    order: 2;
+	}
+
+	.top_place_3 {
+	    order: 3;
+	}
+
+	.table .table_row {
+	    padding: 0 10px;
+	}
+
+	.table .cell:nth-child(1) {
+	    width: 40px;
+	}
+
+	.table .cell:nth-child(2) {
+	    width: calc(65% - 40px);
+	}
+
+	/*-- /Section 1 - top Page --*/
+
+}
+
+@media only screen and (max-width: 750px) {
+
+	/*-- Section 1 - Raffle Page --*/
+
+	.three_cols > div:nth-child(1),
+	.three_cols > div:nth-child(3) {
+		display: none;
+	}
+
+	.three_cols > div:nth-child(2) {
+	    margin: 0 auto;
+	}
+
+	.resp_box {
+		display: block;
+	}
+
+	.resp_items {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.items.resp_items .draw_item {
+	    margin: 22px 10px;
+	    display: inline-flex;
+	}
+
+	.gamer_params_wrapp_resp {
+	    max-width: 100%;
+	    margin: 20px 0;
+	}
+
+	/*-- /Section 1 - Raffle Page --*/
 
 }
 
@@ -943,6 +1285,19 @@
 }
 
 /*-- /Section 1 - Profile Page --*/
+
+/*-- Section 1 - Raffle Page --*/
+
+.winners_thumbnails {
+    margin: 0;
+}
+
+.winners_thumbnails .winner_thumb {
+    width: 100%;
+    margin: 8px 0;
+}
+
+/*-- /Section 1 - Raffle Page --*/
 
 }
 
@@ -1051,6 +1406,35 @@ p.countdown {
 }
 
 /*-- /Section 1 - Jackpot Page --*/
+
+/*-- Section 1 - Raffle Page --*/
+
+.items_wrapp_3 {
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin: 0 -15px;
+	padding-left: 13%;
+}
+
+.item_3 {
+    width: 100%;
+}
+
+.resp_items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-left: 12%;
+}
+
+.items.resp_items .draw_item {
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+}
+
+
+/*-- /Section 1 - Raffle Page --*/
 
 }
 
@@ -1317,6 +1701,59 @@ p.countdown {
 
 	/*-- /Section 1 - Profile Page --*/
 
+	/*-- Section 1 - Support Page --*/
+
+	.new_ticket {
+		min-height: 480px;
+	}
+
+	.chat_message {
+	    width: 100%;
+	}
+
+	.content_templ > .right {
+	    padding: 25px 0 0 0;
+	}
+
+	.chat_message_wrapp {
+	    padding: 10px 0 !important;
+	}
+
+	.chat_footer {
+		width: 100%;
+		position: fixed;
+		bottom: 59px;
+		left: 0;
+	    padding: 0;
+	}
+
+	.support_2 .chat_templ {
+	    margin-bottom: 70px;
+	}
+
+	.ticket_wrapp {
+	    padding: 0 15px;
+	}
+
+	.ticket_header h2 {
+	    font-size: 22px;
+	    line-height: 27px;
+	}
+
+	.support_2.new_ticket .chat_templ {
+	    margin-bottom: 0;
+	}
+
+	/*-- /Section 1 - Support Page --*/
+
+	/*-- Section 1 - top Page --*/
+
+	.top_place {
+	    margin: 10px 0;
+	}
+
+	/*-- /Section 1 - top Page --*/
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -1332,6 +1769,14 @@ p.countdown {
 	}
 
 	/*-- /Section 1 - Main Page --*/
+
+	/*-- Section 1 - Support Page Empty --*/
+
+	.chat_box .chat_empty {
+	    margin: 35% auto 0 auto;
+	}
+
+	/*-- /Section 1 - Support Page Empty --*/
 }
 
 @media only screen and (min-width: 1301px) {
