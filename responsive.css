@@ -1963,6 +1963,10 @@ p.countdown {
 
 	/*-- /Popups --*/
 
+	.chat_users_2 {
+	    margin: 0 -15px;
+	}
+
 }
 
 @media only screen and (max-width: 400px) {
