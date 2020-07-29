@@ -1103,7 +1103,6 @@
 }
 
 .support_2 .chat_templ {
-    /*height: 71vh;*/
     height: 74vh;
     margin-bottom: 20px;
 }
@@ -1187,7 +1186,7 @@
 }
 
 .history_goods .history_good {
-    margin: 8px 8px;
+    margin: 8px 6px;
 }
 
 /*-- /Section 1 - History Page --*/
@@ -1403,9 +1402,9 @@
 
 /*-- Section 1 - Profile Page --*/
 
-/*.history_title {
+.history_title.resp_hide {
 	display: none;
-}*/
+}
 
 /*-- /Section 1 - Profile Page --*/
 
