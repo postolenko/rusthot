@@ -74,6 +74,7 @@
 
 	.gamer_params_2 .single_item .draw_item > div:nth-child(2) {
 	    order: 2;
+	    text-align: left;
 	}
 
 	.thumbnails_2 .thumb_2 {
@@ -1191,6 +1192,20 @@
 	    width: calc(100% - 40px);
 	}
 
+	.profile_thumb .draw_item {
+	    display: flex;
+	    display: -webkit-flex;
+	}
+
+	.profile_thumb .draw_item > div:nth-child(1) {
+	    width: 50px;
+	    padding-bottom: 0;
+	}
+
+	.profile_thumb .draw_item > div:nth-child(2) {
+	    width: calc(100% - 50px);
+	}
+
 	/*-- /Section 1 - Profile Page --*/
 
 	/*-- Section 1 - Raffle Page --*/
@@ -1701,20 +1716,6 @@ p.countdown {
 		margin: 14px 0;
 	}
 
-	.profile_thumb .draw_item {
-	    display: flex;
-	    display: -webkit-flex;
-	}
-
-	.draw_item > div:nth-child(1) {
-	    width: 40px;
-	    padding-bottom: 0;
-	}
-
-	.draw_item > div:nth-child(2) {
-	    width: calc(100% - 40px);
-	}
-
 	.profile_form {
 		display: block;
 	    margin: 15px 0;
@@ -1871,6 +1872,47 @@ p.countdown {
 	}
 
 	/*-- /Section 1 - History Page --*/
+
+	/*-- Popups --*/
+
+	.popup_content {
+		max-width: 270px;
+	}
+
+	.popup_content .close_popup {
+	    top: 20px;
+	    right: 11px;
+	}
+
+	.popup_header {
+		text-align: left;
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+	.popup_header h3 {
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+
+	.balance_two_cols {
+		display: block;
+	}
+
+	.balance_two_cols .col {
+	    width: 100% !important;
+	    padding-bottom: 25px;
+	}
+
+	.balance_two_cols .col:nth-child(2) {
+		display: none;
+	}
+
+	.balance_two_cols .col:last-child {
+		padding-bottom: 0;
+	}
+
+	/*-- /Popups --*/
 
 }
 
