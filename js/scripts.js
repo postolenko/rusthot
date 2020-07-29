@@ -255,7 +255,7 @@ $(document).ready(function() {
 
     // -------------------
 
-    $(".formInput").on("keyup", function() {
+    $(".formInput").on("keydown", function() {
       parentBlock = $(this).closest("form");
       symbols = $(this).val();
       countSymbols = symbols.length;
@@ -265,6 +265,12 @@ $(document).ready(function() {
         obrezannayaStroka = symbols.slice(0,-1);
         $(this).val(obrezannayaStroka);
       }
+    });
+
+    $(".show_field").on("click", function() {
+      parentBlock = $(this).closest(".form_input");
+      formInput = parentBlock.find(".formInput");
+      formInput.toggleClass("height");
     });
 
 });

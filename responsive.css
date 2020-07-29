@@ -668,12 +668,17 @@
 .resp_form_wrapp {
 	display: block;
 	width: 100%;
-	z-index: 3;
-	padding: 0 20px;
+	height: 60px;
+    z-index: 3;
+    padding: 10px 20px 10px 20px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	background: #171925;
+}
+
+.resp_form_wrapp .form {
+	position: relative;
 }
 
 /*-- /Section 1 - Main Page --*/

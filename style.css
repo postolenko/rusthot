@@ -6550,7 +6550,7 @@ footer {
 
 .footer_templ .left {
     width: 330px;
-    padding: 14px 25px;
+    padding: 24px 25px;
     border-right: 1px solid #2E2F42;
     background: -webkit-linear-gradient(180deg, #2A2B38 0%, #1C1D2C 100%);
     background: -moz-linear-gradient(180deg, #2A2B38 0%, #1C1D2C 100%);
@@ -6563,25 +6563,36 @@ footer {
 }
 
 .form_wrapp {
-
+    height: 40px;
+    position: relative;
 }
 
 .form {
     display: flex;
     display: -webkit-flex;
+
+    align-items: flex-end;
+
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
 }
 
+.form_wrapp .form {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 .form .col:nth-child(1) {
     width: calc(100% - 50px);
-    padding: 10px 8px 10px 0;
+    padding: 0 8px 0 0;
 }
 
 .form .col:nth-child(2) {
     width: 50px;
-    padding: 10px 0 10px 8px;
+    padding: 0 0 0 8px;
     text-align: right;
 }
 
@@ -6595,9 +6606,15 @@ footer {
     position: relative;
 }
 
+.input_wrapp_2.form_input {
+    height: auto;
+    min-height: 40px;
+}
+
 .show_field {
     width: 10px;
     height: 10px;
+    cursor: pointer;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(img/crop.svg);
@@ -6638,6 +6655,10 @@ footer {
     line-height: 14px;
     letter-spacing: .02em;
     color: #ffffff;
+}
+
+.formInput.height {
+    height: 80px;
 }
 
 .count_symbols {
