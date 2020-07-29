@@ -1159,6 +1159,11 @@ label {
     /*outline: 1px solid red;*/
 }
 
+.main_nav li .star_big,
+.main_nav li .star_red_big {
+    margin-top: -1px;
+}
+
 .main_nav li:before {
     display: block;
     content: "";
