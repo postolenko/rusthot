@@ -3373,10 +3373,6 @@ input {
 
 /*-- Section 1 - History Page --*/
 
-/*.history_wrapp {
-    padding-bottom: 80px;
-}*/
-
 .history_title {
     margin: 7px 0 29px 0;
 }
@@ -3385,6 +3381,7 @@ input {
     display: flex;
     display: -webkit-flex;
     align-items: center;
+    -webkit-align-items: center;
 }
 
 .h_wrapp:before {
