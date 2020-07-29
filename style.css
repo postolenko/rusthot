@@ -3984,6 +3984,19 @@ input {
 .chat_user_wrapp {
     padding: 8px 8px;
     border-bottom: 1px solid #2E2F42;
+    position: relative;
+}
+
+.chat_user_wrapp .inner_btn {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+}
+
+.chat_user_wrapp .inner_elem {
+    position: absolute;
+    top: 18px;
+    right: 20px;
 }
 
 .chat_user_wrapp:last-child {
@@ -4188,6 +4201,7 @@ input {
 }
 
 .chat_user_inline > div:nth-child(2) {
+    width: 31px;
     font-weight: normal;
     font-size: 12px;
     line-height: 125%;
@@ -5371,10 +5385,12 @@ input {
 }
 
 .choise_good .inner {
+    display: block;
     padding-top: 8px;
 }
 
 .choise_good .img_box {
+    display: block;
     height: 55px;
     position: relative;
 }
@@ -5394,6 +5410,7 @@ input {
 }
 
 .choise_good .descript {
+    display: block;
     text-align: center;
 }
 

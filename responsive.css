@@ -788,6 +788,11 @@
 
 /*-- Section 1 - Raffle Page --*/
 
+.top_bg:before {
+    background-size: cover;
+    max-height: 700px;
+}
+
 .item_3 {
     width: 180px;
 	margin: 15px 10px;
@@ -919,6 +924,22 @@
 
 /*-- Section 1 - Main Page --*/
 
+.index_bg:before {
+	background-image: url(img/index_bg_tab.jpg);
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 1 - Jackpot Page --*/
+
+.jackpot_bg:before {
+    background-image: url(img/jackpot_bg_tab.jpg);
+}
+
+/*-- /Section 1 - Jackpot Page --*/
+
+/*-- Section 1 - Main Page --*/
+
 .draw .inline:last-child {
 	display: none;
 }
@@ -985,6 +1006,14 @@
 	}
 
 /*-- /Section 1 - Profile Page --*/
+
+/*-- Section 1 - Raffle Page --*/
+
+.top_bg:before {
+    background-image: url(img/top_bg_tab.jpg);
+}
+
+/*-- /Section 1 - Raffle Page --*/
 
 }
 
@@ -1415,6 +1444,10 @@
 
 /*-- Section 1 - Main Page --*/
 
+.index_bg:before {
+	background-image: url(img/index_bg_smart.jpg);
+}
+
 .draw {
     margin-bottom: 0px;
 }
@@ -1441,6 +1474,10 @@ p.countdown {
 /*-- /Section 1 - Main Page --*/
 
 /*-- Section 1 - Jackpot Page --*/
+
+.jackpot_bg:before {
+    background-image: url(img/jackpot_bg_smart.jpg);
+}
 
 .top_row {
     margin: 14px 0 57px 0;
@@ -1523,6 +1560,9 @@ p.countdown {
     width: 100%;
 }
 
+.top_bg:before {
+    background-image: url(img/top_bg_smart.jpg);
+}
 
 /*-- /Section 1 - Raffle Page --*/
 
