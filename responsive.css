@@ -1403,9 +1403,9 @@
 
 /*-- Section 1 - Profile Page --*/
 
-.history_title {
+/*.history_title {
 	display: none;
-}
+}*/
 
 /*-- /Section 1 - Profile Page --*/
 
@@ -1973,6 +1973,10 @@ p.countdown {
 
 	.file_cols span:nth-child(1) {
 	    width: 26px;
+	}
+
+	.h_wrapp h3 {
+	    font-size: 16px;
 	}
 
 }
