@@ -3412,6 +3412,7 @@ input {
     letter-spacing: .02em;
     text-transform: uppercase;
     background: linear-gradient(#FFFFFF, #929EB1);
+    background: -webkit-linear-gradient(#FFFFFF, #929EB1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -3714,6 +3715,7 @@ input {
     letter-spacing: .02em;
     text-transform: uppercase;
     background: linear-gradient(#FFFFFF, #929EB1);
+    background: -webkit-linear-gradient(#FFFFFF, #929EB1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
