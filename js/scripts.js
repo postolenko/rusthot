@@ -74,7 +74,7 @@ $(document).ready(function() {
         autoplaySpeed: 2000,
         speed: 1200,
         // slidesToShow: 1,
-        // slidesToScroll: 5,
+        slidesToScroll: 5,
         variableWidth: true,
         // centerMode: true
     });

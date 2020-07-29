@@ -5414,6 +5414,7 @@ input {
     margin: 0 -25px;
     padding: 8px 0;
     height: 96px;
+    overflow: hidden;
     background: -webkit-linear-gradient(180deg, #11121B 0%, #0B0B11 100%);
     background: -moz-linear-gradient(180deg, #11121B 0%, #0B0B11 100%);
     background: linear-gradient(180deg, #11121B 0%, #0B0B11 100%);
