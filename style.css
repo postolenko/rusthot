@@ -3405,7 +3405,7 @@ input {
 .h_wrapp h3 {
     display: inline-flex;
     display: -webkit-inline-flex;
-    padding: 0 13px;
+    /*padding: 0 13px;*/
     white-space: nowrap;
     font-weight: 500;
     font-size: 18px;
@@ -3427,7 +3427,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     -webkit-text-fill-color: transparent;
 }
 
-.h_wrapp h3 i {
+.hwrapp_inner {
+    display: flex;
+    padding: 0 13px;
+}
+
+.hwrapp_inner i {
     margin-right: 13px;
     position: relative;
     top: 2px;
