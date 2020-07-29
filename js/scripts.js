@@ -6,17 +6,6 @@ function getSidebarHeight() {
     "top" : $(".sidebar_header").outerHeight() + "px",
     "max-height" : $(".sidebar").height() - $(".sidebar_header").height() + "px"
   });
-  console.log($(".footer_section").height());
-}
-
-function getCount() {
-  symbols = $("#form_input").val();
-  contSymbols = $("#form_input").val().length;
-  maxSymbols = parseInt( $(".count_symbols").attr("data-maxsimbols") );
-  if(maxSymbols < contSymbols) {
-    obrezannayaStroka = symbols.slice(0,-1);
-    $("#form_input").val(obrezannayaStroka);
-  }
 }
 
 var w = window,
@@ -25,29 +14,20 @@ e = d.documentElement,
 g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
-
 $(window).load(function() {
-
   getSidebarHeight();
   $(".scrollbar").mCustomScrollbar();
-
 });
 
 $(window).resize(function() {
-
   bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
-
   $(".content").css({
     "padding-top" : $(".header_site").height() + "px"
   });
-
   getSidebarHeight();
-
 });
 
 $(document).scroll(function() {
-
-
 
 });
 
@@ -275,5 +255,16 @@ $(document).ready(function() {
 
     // -------------------
 
+    $(".formInput").on("keyup", function() {
+      parentBlock = $(this).closest("form");
+      symbols = $(this).val();
+      countSymbols = symbols.length;
+      maxSymbols = parseInt( parentBlock.find(".count_symbols").attr("data-maxsimbols") );
+      parentBlock.find(".count_symbols").text(maxSymbols - countSymbols);
+      if(maxSymbols <= countSymbols) {
+        obrezannayaStroka = symbols.slice(0,-1);
+        $(this).val(obrezannayaStroka);
+      }
+    });
 
 });

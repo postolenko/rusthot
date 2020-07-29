@@ -6551,9 +6551,6 @@ footer {
 .footer_templ .left {
     width: 330px;
     padding: 14px 25px;
-    /*background-position: center;*/
-    /*background-size: cover;*/
-    /*background-image: url(img/footer_left_bg.jpg);*/
     border-right: 1px solid #2E2F42;
     background: -webkit-linear-gradient(180deg, #2A2B38 0%, #1C1D2C 100%);
     background: -moz-linear-gradient(180deg, #2A2B38 0%, #1C1D2C 100%);
@@ -6595,7 +6592,6 @@ footer {
     -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
     -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
-    /*outline: 1px solid red;*/
     position: relative;
 }
 
@@ -6628,13 +6624,29 @@ footer {
     color: #ffffff;
 }
 
+.input_wrapp_2 textarea {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    height: 14px;
+    padding: 0 17px;
+    background: transparent;
+    border: 1px solid transparent;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #ffffff;
+}
+
 .count_symbols {
     text-align: right;
     font-weight: 500;
-    font-size: 8px;
+    font-size: 9px;
     line-height: 150%;
     letter-spacing: .02em;
-    color: #575760;
+    color: #fff;
 }
 
 .submit_btn {
@@ -6767,7 +6779,6 @@ footer {
     opacity: 1;
 }
 
-/*transform: matrix(1, 0, 0, -1, 0, 0);*/
 .soc_links li a img {
     display: block;
     position: absolute;
