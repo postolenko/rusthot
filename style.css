@@ -2161,6 +2161,7 @@ label {
     vertical-align: top;
     cursor: pointer;
     border: none;
+    margin: rgb(24, 163, 88);
     padding: 11px 20px 9px 20px;
     position: relative;
     font-weight: bold;
@@ -3288,6 +3289,7 @@ input {
     display: -webkit-inline-flex;
     cursor: pointer;
     position: relative;
+    background: #FF2C2C;
     margin: 10px 0;
     padding: 10px 15px 10px 15px;
     border: 1px solid #FF2C2C;
