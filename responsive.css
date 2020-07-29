@@ -345,6 +345,14 @@
 
 @media only screen and (max-width: 1590px) {
 
+	/*-- Header --*/
+
+	.main_nav li a {
+	    padding: 0 22px;
+	}
+
+	/*-- /Header --*/
+
 	/*-- Section 1 - Jackpot Page --*/
 
 	.thumbnails_2 .thumb_2 {
@@ -420,10 +428,6 @@
 .lang_wrapp {
     width: 90px;
  }
-
-/*-- /Header --*/
-
-/*-- Header --*/
 
 .header_site {
 	position: fixed;
