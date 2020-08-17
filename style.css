@@ -1649,6 +1649,8 @@ label {
     display: -webkit-flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
     width: 100%;
 }
 
@@ -1662,6 +1664,13 @@ label {
 .content_templ > .right {
     width: calc(100% - 330px);
     padding: 25px 25px 15px 25px;
+}
+
+#chatMenu {
+    width: 330px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .sidebar {
@@ -1682,7 +1691,7 @@ label {
     background-repeat: no-repeat;
     background: #171925;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .sidebar_header .col_1 {

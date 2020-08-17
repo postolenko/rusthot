@@ -627,6 +627,7 @@
 
 #chatMenu {
 	display: none;
+	top: 0 !important;
 }
 
 .content_templ > .right {
@@ -666,7 +667,7 @@
 }
 
 .chat_users.mCustomScrollbar .user_item:last-child {
-    margin-bottom: 100px;
+	margin-bottom: 64px;
 }
 
 .resp_form_wrapp {
@@ -2011,5 +2012,4 @@ p.countdown {
 	#chatMenu {
 		display: flex !important;
 	}
-
 }

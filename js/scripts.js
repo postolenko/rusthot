@@ -2,9 +2,20 @@ function getSidebarHeight() {
   $(".wrapper").css({
     "padding-bottom" : $(".footer_section").height() + "px"
   });
-  $("#chatUsers").css({
-    "top" : $(".sidebar_header").outerHeight() + "px",
-    "max-height" : $(".sidebar").height() - $(".sidebar_header").height() + "px"
+  if(bodyWidth >= 1300) {
+    $("#chatUsers").css({
+      "top" : $(".sidebar_header").outerHeight() + "px",
+      "max-height" : $(window).height() - $(".sidebar_header").outerHeight() - $("#footerForm").outerHeight() - $(".header_site").outerHeight() + "px"
+    });
+  } else {
+    $("#chatUsers").css({
+      "top" : "auto",
+      "max-height" : "auto"
+    });
+  }
+
+  $("#chatMenu").css({
+    "top" : $(".header_site").height() + "px"
   });
 }
 
