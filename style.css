@@ -4018,6 +4018,10 @@ input {
     margin: 3px 0 3px 8px;
 }
 
+.close_tickets {
+    display: none;
+}
+
 .resp_inline .link_wrapp {
     display: none;
 }

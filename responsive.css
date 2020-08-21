@@ -1183,6 +1183,7 @@
 }
 
 .close_tickets {
+	display: block;
 	margin-left: 20px;
 }
 
