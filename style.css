@@ -4009,6 +4009,11 @@ input {
     min-height: 100%;
 }
 
+.resp_header {
+    display: none;
+    padding: 20px 20px 0 20px;
+}
+
 .chat_user_inline .green_circle {
     margin: 3px 0 3px 8px;
 }

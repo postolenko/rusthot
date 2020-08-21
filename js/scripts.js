@@ -284,4 +284,26 @@ $(document).ready(function() {
       formInput.toggleClass("height");
     });
 
+    // ------------
+
+    $(".close_tickets").on("click", function(e) {
+      e.preventDefault();
+      if($("#ticketsSidebar").is(":visible")) {
+        $("#ticketsSidebar").fadeOut(300);
+      } else {
+        $("#ticketsSidebar").fadeIn(300);
+      }
+    });
+
+    $(this).keydown(function(eventObject){
+      if (eventObject.which == 27 ) {
+        $("#ticketsSidebar").fadeOut(300);
+      }
+    });
+
+    $(".show_tickets").on("click", function(e) {
+      e.preventDefault();
+      $("#ticketsSidebar").fadeIn(300);
+    });
+
 });
